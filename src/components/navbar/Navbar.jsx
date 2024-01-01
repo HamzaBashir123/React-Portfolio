@@ -29,11 +29,17 @@ const Navbar = () => {
             scale: 1,
           }}
           transition={{duration:0.5}}>
-          <a href="#">
-            <img src="/LinkedIn.png" alt="" />
+          <a href="https://www.linkedin.com/in/muhammad-hamza-27791914a/" target="blank">
+            <img src="/LinkedIn.png"  alt="" />
+          </a>
+          <a href="https://github.com/HamzaBashir123" target="blank">
+            <img src="/github.png" alt="" />
           </a>
           <a href="#">
-            <img src="/github.png" alt="" />
+            <img src="/facebook.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/instagram.png" alt="" />
           </a>
         </motion.div>
       </div>
