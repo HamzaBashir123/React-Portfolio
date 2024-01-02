@@ -11,14 +11,14 @@ import Services from "./components/services/Services";
 const App = () => { 
   return (
     <div>
-      {/* <Cursor/> */}
+      <Cursor/>
       <section id="Homepage">
         <Navbar />
-        {/* <Hero/> */}
+        <Hero/>
       </section>
-      {/* <section id="Parallax"><Parallax type="services"/></section> */}
-      {/* <section id="Services"><Services/></section> */}
-      {/* <section id="Parallax1"><Parallax type="portfolio"/></section> */}
+      <section id="Parallax"><Parallax type="services"/></section>
+      <section id="Services"><Services/></section>
+      <section id="Parallax1"><Parallax type="portfolio"/></section>
       {/* <Portfolio/> */}
       {/* <section id="Contact"><Contact/></section> */}
 
